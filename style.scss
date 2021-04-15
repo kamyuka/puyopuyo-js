@@ -1,0 +1,53 @@
+$base:#457b9d;
+$main:#1d3557;
+$sub:#a8dadc;
+$accent:#e63946;
+$text:#f1faee;
+
+@keyframes fadeIn{
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+canvas{
+    border: 2px groove black;
+    box-shadow: 0px 0px 4px gray;
+}
+
+body {
+    height:100%;
+    animation: fadeIn 2s ease 0s 1 normal;
+    font-family: 'DotGothic16', sans-serif;
+    background-color: $base;
+}
+
+a:visited{ color: $accent; }
+a:link{ color: $accent; }
+a:hover{ color: $base; }
+
+#wrapper{
+    margin : 20px;
+    padding : 20px;
+	text-align:center;
+}
+
+h2{
+    font-size:40px;
+    text-align:center;
+    color: $sub;
+}
+
+h3{
+    font-size:25px;
+    color: $sub;
+}
+
+.textbox {
+    font-size:20px;
+    margin : 20px;
+    padding : 20px;
+    background: $main;
+    border:dashed 1px $sub; 
+    border-radius:10px;
+    color:$text;
+}

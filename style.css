@@ -1,0 +1,71 @@
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+canvas {
+  border: 2px groove black;
+  -webkit-box-shadow: 0px 0px 4px gray;
+          box-shadow: 0px 0px 4px gray;
+}
+
+body {
+  height: 100%;
+  -webkit-animation: fadeIn 2s ease 0s 1 normal;
+          animation: fadeIn 2s ease 0s 1 normal;
+  font-family: 'DotGothic16', sans-serif;
+  background-color: #457b9d;
+}
+
+a:visited {
+  color: #e63946;
+}
+
+a:link {
+  color: #e63946;
+}
+
+a:hover {
+  color: #457b9d;
+}
+
+#wrapper {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: #a8dadc;
+}
+
+h3 {
+  font-size: 25px;
+  color: #a8dadc;
+}
+
+.textbox {
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  background: #1d3557;
+  border: dashed 1px #a8dadc;
+  border-radius: 10px;
+  color: #f1faee;
+}
+/*# sourceMappingURL=style.css.map */
